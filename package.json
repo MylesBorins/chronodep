@@ -1,0 +1,24 @@
+{
+  "name": "chronodep",
+  "version": "1.0.0",
+  "description": "list all dependencies of a project in chronological order",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/test-*.js | tap-spec"
+  },
+  "keywords": [
+    "chronological",
+    "dependencies",
+    "whyisitbroken"
+  ],
+  "author": "Myles Borins <myles.borins@gmail.com>",
+  "license": "MPLV2",
+  "devDependencies": {
+    "nodemon": "^1.2.1",
+    "tap-spec": "^2.1.0",
+    "tape": "^3.0.3"
+  }
+}
