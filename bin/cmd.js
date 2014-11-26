@@ -41,6 +41,6 @@ chronodep(src, function (err, deps) {
     console.error(new Error(err));
     process.exit(1);
   }
-  console.log(deps);
+  console.log(deps.reverse());
   process.exit(0);
 });
