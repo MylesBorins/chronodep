@@ -22,7 +22,7 @@ var expected = {
 
 test('age:', function (t) {
   t.plan(2);
-  age(dep.name, dep.version, function (err, depWithAge) {
+  age(dep, function (err, depWithAge) {
     t.error(err, 'there should be no error');
     t.deepEqual(depWithAge, expected, 'it should return the data including the time npm 2.1.9 was released');
   });
