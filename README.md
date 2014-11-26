@@ -1,3 +1,3 @@
 #chrono-dep
 
-I am really annoyed right now.  Some random dependency in watchify is fucking all ma jam up.  Something landed today that stopped the tests from running anymore.  I do not want to manually go through the repo to find what changed... so lets do it programatically!
+Do you ever have something just stop working?  Despite developers best efforts to adhere to semver, there are ghosts in the machine.  chronodep will parse the dependency tree of any project and return to you a sorted array of dependencies including the current version, and when it was last updated.
