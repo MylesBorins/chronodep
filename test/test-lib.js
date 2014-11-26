@@ -11,12 +11,10 @@ var chronodep = require('../lib');
 
 var root = path.join(__dirname, '..');
 
-test('Does Myles like rent?', function (t) {
+test('chronodep:', function (t) {
   t.plan(2);
   chronodep(root, function (err, deps) {
     t.error(err, 'the callback should be called without an error');
-    console.log('Final outoutput:');
-    console.log(deps);
     t.equal(deps.constructor, Array, 'the return should be an array');
   });
 });
