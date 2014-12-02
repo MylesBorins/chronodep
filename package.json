@@ -1,6 +1,6 @@
 {
   "name": "chronodep",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "list all dependencies of a project in chronological order",
   "main": "index.js",
   "directories": {
