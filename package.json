@@ -4,7 +4,8 @@
   "description": "list all dependencies of a project in chronological order",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "bin": "./bin",
+    "lib": "./lib"
   },
   "scripts": {
     "test": "npm run lint && npm run tape",
@@ -20,7 +21,7 @@
   "author": "Myles Borins <myles.borins@gmail.com>",
   "license": "MPLV2",
   "devDependencies": {
-    "eslint": "^0.9.2",
+    "eslint": "^0.10.0",
     "nodemon": "^1.2.1",
     "tap-spec": "^2.1.0",
     "tape": "^3.0.3"
@@ -34,9 +35,5 @@
   },
   "bin": {
     "chronodep": "./bin/cmd.js"
-  },
-  "directories": {
-    "bin": "./bin",
-    "lib": "./lib"
   }
 }
